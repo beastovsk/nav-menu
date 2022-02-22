@@ -1,0 +1,49 @@
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+.nav-item {
+    padding: 10px 15px;
+    display: flex;
+}
+
+.extra-menu {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #d2d3d3;
+    padding: 0px 15px;
+}
+
+.extra-menu__title {
+    margin: auto;
+
+}
+
+.extra-menu__container {
+    max-width: 150px;
+    background-color: #d2d3d3;
+    position: absolute;   
+    margin-top: 38px;
+}
+
+.extra-menu__show-item {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.extra-menu__item {
+    display: none;
+}
